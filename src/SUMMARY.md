@@ -16,7 +16,7 @@
     - [Terraform](./guide/terraform.md)
 
 - [Continuous Integration](./guide/continuous-integration.md)
-    - [Gitea](./guide/README.md)
+    - [Gitea](./guide/gitea.md)
     - [Woodpecker](./guide/woodpecker-ci.md)
     - [Gitea Registries](./guide/gitea-registries.md)
 
