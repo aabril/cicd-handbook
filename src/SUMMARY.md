@@ -2,7 +2,7 @@
 
 # CI-CD Handbook
 
-- [Introduction](./readme.md)
+- [Introduction](./guide/introduction.md)
 
 - [Basic Concepts](./guide/basic-concepts.md)
     - [What is CI?](./guide/what-is-ci.md)
