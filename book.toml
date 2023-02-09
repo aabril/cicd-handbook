@@ -1,0 +1,6 @@
+[book]
+authors = ["albert"]
+language = "en"
+multilingual = false
+src = "src"
+title = "CI-CD Handbook"
