@@ -27,10 +27,10 @@
 - [Use case](./guide/use-case.md)
     - [Deploy a 'hello world'](./guide/deploy-hello-world.md)
 
-- [Other concepts](./guide/Other)
+- [Other concepts](./guide/other.md)
     - [Message Queue](./guide/message-queuing.md)
     - [Databases](./guide/databases.md)
-    - [gRPC](./guide/grpc)
-    - [GraphQL](./guide/graphql)
+    - [gRPC](./guide/grpc.md)
+    - [GraphQL](./guide/graphql.md)
 
 
