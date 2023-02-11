@@ -2,8 +2,32 @@
 
 > word-in-progress #wip
 
-### Dockerfile
+### docker-compose-file.yml
 
+```yaml
+➜  git cat docker-compose.yml 
+version: "3"
+
+networks:
+  gitea:
+    external: false
+
+services:
+  server:
+    image: gitea/gitea:1.18.1
+    container_name: gitea
+    environment:
+      - USER_UID=1000
+      - USER_GID=1000
+    restart: always
+    networks:
+      - gitea
+    volumes:
+      - ./gitea:/data
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - "127.0.0.1:6000:3000"
+      - "2221:22"
 ```
-FROM whatever
-```
+
