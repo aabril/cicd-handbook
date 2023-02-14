@@ -6,6 +6,7 @@
 - k3s
 - kind 
 - microk8s
+- k0s
 - docker
 
 
